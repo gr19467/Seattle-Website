@@ -1,14 +1,29 @@
 /*Bar*/
 
 .bar{
+    background-image: url(Images/lights.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 35vh;
-    background-color: aliceblue;
-    background-image: image();
+
+    margin: 0;
 }
 
     /*Title*/
+    .title > h1{
+        border: solid 1px;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .title > h5{
+        text-align: center;
+    }
 
     /*Nav*/
+    ul > li{
+        list-style: none;
+    }
 
 /*General*/
 
