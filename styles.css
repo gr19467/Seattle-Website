@@ -1,28 +1,70 @@
+body{
+    border-width: 3vw;
+    border: dotted;
+    border-color: rgb(40, 114, 51);
+}
+
 /*Bar*/
 
 .bar{
-    background-image: url(Images/lights.jpg);
+    background-image: url(Images/banner1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 35vh;
 
     margin: 0;
+    border-radius: 10px;
+    border: inset;
+    border-color: rgb(40, 114, 51);
 }
 
     /*Title*/
     .title > h1{
         border: solid 1px;
         border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
         text-align: center;
+        margin-top: 5vh;
+        width: 50%;
+        color: rgb(40, 114, 51);
+        font-size: 400%;
     }
 
-    .title > h5{
+    .title > h3{
         text-align: center;
+        color: rgb(40, 114, 51);
+        font-size: 250%;
     }
 
     /*Nav*/
-    ul > li{
+    ul{
+        color: rgb(40, 114, 51);
+    
         list-style: none;
+        width: 50%;
+        margin: auto;
+    
+        text-align: center;
+        padding-left: 0%;
+        margin-top: 3.5vh;
+    }
+    
+    ul>li{
+        display: inline-block;
+        border-style: solid;
+        border-radius: 15px;
+        color: rgb(40, 114, 51);
+        font-size: 200%;
+        background-color: lightgrey;
+        background-color: rgb(255, 255, 255, .5);
+        width: 15vw;
+    }
+
+    ul>li>a{
+        color: rgb(40, 114, 51);
+        text-decoration: none;
     }
 
 /*General*/
