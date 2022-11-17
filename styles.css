@@ -17,6 +17,99 @@ body{
     border-color: rgb(40, 114, 51);
 }
 
+.activity-bar{
+    background-image: url(Images/needle.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 35vh;
+    margin: 0;
+
+    border-radius: 10px;
+    border: solid;
+    border-color: rgb(40, 114, 51);
+}
+
+.activity-title > h1{
+    border: solid 1px;
+    border-radius: 10px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7vh;
+
+    display: block;
+
+    text-align: center;
+    
+    width: 50%;
+
+    color: rgb(40, 114, 51);
+    font-size: 500%;
+}
+
+.food-bar{
+    background-image: url(Images/pike.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 35vh;
+    margin: 0;
+
+    border-radius: 10px;
+    border: solid;
+    border-color: rgb(40, 114, 51);
+}
+
+.food-title > h1{
+    border: solid 1px;
+    border-radius: 10px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7vh;
+
+    display: block;
+
+    text-align: center;
+    
+    width: 50%;
+
+    color: rgb(40, 114, 51);
+    font-size: 500%;
+}
+
+.tosee-bar{
+    background-image: url(Images/banner1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 35vh;
+    margin: 0;
+
+    border-radius: 10px;
+    border: solid;
+    border-color: rgb(40, 114, 51);
+}
+
+.tosee-title > h1{
+    border: solid 1px;
+    border-radius: 10px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7vh;
+
+    display: block;
+
+    text-align: center;
+    
+    width: 50%;
+
+    color: rgb(40, 114, 51);
+    font-size: 500%;
+}
+
     /*Title*/
     .title > h1{
         border: solid 1px;
